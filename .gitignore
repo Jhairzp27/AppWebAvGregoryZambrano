@@ -1,0 +1,40 @@
+# ============================================================================
+#  .gitignore · AppWebAvGregoryZambrano / PoliMusic
+# ============================================================================
+
+# --- Visual Studio / MSBuild -------------------------------------------------
+.vs/
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+packages/
+
+# --- Entorno local -----------------------------------------------------------
+.vscode/
+.idea/
+*.env
+.env.local
+
+# --- Datos que genera la herramienta de trabajo (no forman parte del entregable)
+.workbuddy-ai/
+
+# --- Archivos temporales y de respaldo ---------------------------------------
+*.bak
+*.tmp
+*.log
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Vistas previas usadas al maquetar ---------------------------------------
+_preview*.html
+_a.html
+_b.html
