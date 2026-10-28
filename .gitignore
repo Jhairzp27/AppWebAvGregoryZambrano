@@ -9,6 +9,7 @@ obj/
 Debug/
 Release/
 *.user
+*.csproj.user
 *.suo
 *.userosscache
 *.sln.docstates
